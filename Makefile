@@ -43,6 +43,7 @@ $(proj)-lookup-cflags := -Ilib
 
 lib$(proj).so-srcs := \
 	lib/logging.c \
+	lib/qmi_tlv.c \
 	lib/qrtr.c \
 	lib/qmi.c
 
