@@ -127,6 +127,7 @@ $(DESTDIR)$(servicedir)/$1: $1
 	@echo "INSTALL	$$<"
 	@install -D -m 644 $$< $$@
 
+all-clean += $1
 all-install += $(DESTDIR)$(servicedir)/$1
 endef
 
